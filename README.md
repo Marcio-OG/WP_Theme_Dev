@@ -1,4 +1,6 @@
-"# WP_Theme_Dev" 
+PT:
+
+# Criação de Tema Wordpress By Márcinho OG
 
 - Instalei a versão 5.8 do Wordpress
 
