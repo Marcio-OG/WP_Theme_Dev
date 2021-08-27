@@ -6,3 +6,7 @@ PT:
 
 - Desinstalei os plugins de origem "Akismet Anti-Spam" e "Hello Dolly"
 
+- Os temas ficam no directório "/wp-content/themes"
+
+- Os arquivos iniciais para criar um tema são: -- index.php 
+-- style.css
