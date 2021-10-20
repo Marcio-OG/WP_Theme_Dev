@@ -25,18 +25,29 @@
         <section class="middle-area">
             <div class="container">
                 <div class="row">
-                    
+
                     <div class="news col-md-8">
                         <?php
                         if (have_posts()) :
                             while (have_posts()) : the_post();
                         ?>
                                 <?php get_template_part('template-parts/content', get_post_format()); ?>
-                                <hr>
                             <?php
                             endwhile;
-                        else :
                             ?>
+
+                            <div class="row">
+                                <div class="pages text-left col-6">
+                                    <?php previous_posts_link("<< Newer posts"); ?>
+                                </div>
+                                <div class="pages text-right col-6">
+                                    <?php next_posts_link("Older posts >>"); ?>
+                                </div>
+                            </div>
+
+                        <?php
+                        else :
+                        ?>
                             <p>There's nothing yet to be displayed...</p>
                         <?php endif; ?>
                     </div>
