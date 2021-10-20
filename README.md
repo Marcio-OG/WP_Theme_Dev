@@ -14,4 +14,4 @@ PT:
 
 - Criei a pasta do tema "wp_theme_dev"
 
-- As tags do tem devem seguir os seguintes requisitos: "https://make.wordpress.org/themes/handbook/review/required/theme-tags/"
+- As tags do tema devem seguir os seguintes requisitos: "https://make.wordpress.org/themes/handbook/review/required/theme-tags/"
