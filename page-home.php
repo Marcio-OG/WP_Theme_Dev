@@ -2,11 +2,7 @@
 <div class="content-area">
     <main>
         <section class="slide">
-            <div class="container">
-                <div class="row">
-                    Slide
-                </div>
-            </div>
+            <?php echo do_shortcode('[recent_post_slider design="design-2" limit="5"]'); ?>
         </section>
 
         <section class="services">
@@ -102,11 +98,15 @@
         </section>
 
         <section class="map">
-            <div class="container">
-                <div class="row">
-                    Mapa
-                </div>
-            </div>
+            <iframe
+                width="100%"
+                height="450"
+                style="border:0"
+                loading="lazy"
+                allowfullscreen
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBsg4g1z1F-0gcp9IBhlLQqD6oZMQLr4zI
+                    &q=Space+Needle,Seattle+WA">
+            </iframe>
         </section>
     </main>
 </div>
